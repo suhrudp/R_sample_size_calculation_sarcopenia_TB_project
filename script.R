@@ -59,7 +59,7 @@
 set.seed(13)
 
 # set working directory
-setwd("C:/Users/SURHUD/Desktop/Desktop/Stats/Sarcopenia in TB")
+setwd("your/working/directory")
 
 # load libraries
 library(readxl) # read excel workbooks
@@ -77,7 +77,7 @@ library(performance) # to assess model performance eg, for regressions and calcu
 library(gridExtra) # to arrange 2 ggplot objects
 
 # import data
-df <- read_excel("C:/Users/SURHUD/Desktop/Desktop/Stats/Sarcopenia in TB/data.xlsx")
+df <- read_excel("your/working/directory/data.xlsx")
 df %>% colnames()
 attach(df)
 
